@@ -5,6 +5,8 @@ import string
 import swifter
 import en_core_web_sm
 
+nltk.download('punkt_tab')
+
 # Load the English language model
 nlp = spacy.load("en_core_web_sm")
 
